@@ -13,7 +13,8 @@ import { Layout } from "./components/useLayoutEffect/Layout";
 import { Memorize } from "./components/memos/Memorize";
 import { MemoHook } from "./components/memos/MemoHook";
 import { CallbackHook } from "./components/memos/CallbackHook";
-import { Padre } from "./components/tareaMemo/Padre";*/
-import { TodoApp } from "./components/useReducer/TodoApp";
+import { Padre } from "./components/tareaMemo/Padre";
+import { TodoApp } from "./components/useReducer/TodoApp";*/
+import { MainApp } from "./components/useContext/MainApp";
 
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(<MainApp />, document.getElementById("root"));
